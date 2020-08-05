@@ -7,17 +7,9 @@ import ReactDom from 'react-dom';
 
 const App=()=>{
 
-    const buttonText={text:'click me!'};
+     
 
-    const style={backgroundColor:'blue', color:'white'};
-
-    return <div>
-        <label class="lable" for="name">Enter Name</label>
-        <input id="name" type="text"/>
-        <button style={style}>
-            {buttonText.text}
-        </button>
-        </div>
+    return <div> Hi there! </div>
         
 };
 
