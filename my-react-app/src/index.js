@@ -15,9 +15,9 @@ const App=()=>{
         <div className="ui container comments">
             
             
-           <CommentDetail author="sam"/>
-           <CommentDetail author="isuru"/>
-           <CommentDetail author="dilshan"/>
+           <CommentDetail author1="sam" timeAgo="today at 5.00pm" />
+           <CommentDetail author1="isuru" timeAgo="today at 4.00pm"/>
+           <CommentDetail author1="dilshan" timeAgo="yesterday at 1.00am"/>
            
 
         </div>

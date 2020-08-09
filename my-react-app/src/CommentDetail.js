@@ -10,10 +10,10 @@ const CommentDetail=(props)=>{
         </a>
         <div className="content">
             <a href="/" className="author">
-               {props.author}
+               {props.author1}
             </a>
             <div className="metadata">
-                <span className="date">today at 6:00PM</span>
+    <span className="date">{props.timeAgo}</span>
 
             </div>
             <div className="text">
