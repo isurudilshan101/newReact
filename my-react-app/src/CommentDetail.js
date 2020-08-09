@@ -17,7 +17,7 @@ const CommentDetail=(props)=>{
 
             </div>
             <div className="text">
-                Nice blog post!
+              {props.message}
             </div>
 
         </div>
