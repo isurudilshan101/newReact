@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import faker from 'faker'; 
-import CommentDetails from './CommentDetails';
+import CommentDetail from './CommentDetail';
 
 // function getButtonText(){
 //     return 'click me now!'
@@ -15,7 +15,10 @@ const App=()=>{
         <div className="ui container comments">
             
             
-           <CommentDetails/>
+           <CommentDetail author="sam"/>
+           <CommentDetail author="isuru"/>
+           <CommentDetail author="dilshan"/>
+           
 
         </div>
     );
