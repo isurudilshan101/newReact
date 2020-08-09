@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import faker from 'faker'; 
 import CommentDetail from './CommentDetail';
+import AprovalCard from './ApprovalCard'; 
 
 // function getButtonText(){
 //     return 'click me now!'
