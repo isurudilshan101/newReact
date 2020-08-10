@@ -42,7 +42,7 @@ const App=()=>{
              <ApprovalCard>
            <CommentDetail author1="dilshan" 
             timeAgo="yesterday at 1.00am"
-             message="well done"
+             message="well done bro!"
              avatar={faker.image.avatar()}
              />
                </ApprovalCard> 
